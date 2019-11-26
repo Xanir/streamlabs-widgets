@@ -1,0 +1,38 @@
+{
+  "displayTimeNumber": {
+    "label": "Display Time of Numbers (seconds)",
+    "max": 60,
+    "type": "slider",
+    "value": 3
+  },
+  "displayTimePercent": {
+    "label": "Display Time of Percent (seconds)",
+    "max": 60,
+    "type": "slider",
+    "value": 5
+  },
+  "fontSize": {
+    "label": "Font Size",
+    "min": 12,
+    "max": 60,
+	"steps": 4,
+    "type": "slider",
+    "value": 5
+  },
+  "colorOfBackground": {
+    "label": "Background Color",
+    "type": "colorpicker",
+    "value": "#000000"
+  },
+  "colorOfRing": {
+    "label": "Ring Color",
+    "type": "colorpicker",
+    "value": "#FF0000"
+  },
+  "colorOfText": {
+    "label": "Text Color",
+    "type": "colorpicker",
+    "value": "#FF0000"
+  },
+  "priority": 10
+}
