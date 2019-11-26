@@ -31,13 +31,13 @@
 .blurOut {
   animation-name: blurOut;
   animation-delay: 0s;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-timing-function: linear;
 }
 .blurIn {
   animation-name: blurIn;
   animation-delay: 0s;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-timing-function: linear;
 }
 
@@ -55,19 +55,14 @@
   align-self: center;
   justify-self: center;
   text-align: center;
-  padding: 4px;
 }
 
-.goal-circle-current {
-  font-size: 0.5em;
-  margin: 0;
-  padding; 0;
-  display: block;
-}
+.goal-circle-current,
 .goal-circle-total {
   font-size: 0.5em;
   margin: 0;
   padding; 0;
-  margin-top: 0.10em;
+  display: block;
   padding-top: 0.15em;
+  padding-bottom: 0.15em;
 }
